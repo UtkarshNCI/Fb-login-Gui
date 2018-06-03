@@ -5,7 +5,7 @@ import os
 usr=input("Enter Email Id:")
 pwd=getpass("Enter Password")
 
-driver=webdriver.Chrome("C:\Users\Utkarsh\Downloads\chromedriver_win32\chromedriver.exe")
+driver=webdriver.Chrome("C:/Users/Utkarsh/Downloads/chromedriver_win32/chromedriver.exe")
 driver.get("https://www.facebook.com/")
 print("Opened Facebook")
 sleep(1)
