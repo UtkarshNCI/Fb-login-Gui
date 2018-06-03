@@ -1,11 +1,11 @@
 from selenium import webdriver 
 from time import sleep
 from getpass import getpass
-
+import os
 usr=input("Enter Email Id:")
 pwd=getpass("Enter Password")
 
-driver=webdriver.Chrome("C:/Users/Utkarsh/AppData/Local/Programs/Python/Python36")
+driver=webdriver.Chrome("C:\Users\Utkarsh\Downloads\chromedriver_win32")
 driver.get("https://www.facebook.com/")
 print("Opened Facebook")
 sleep(1)
