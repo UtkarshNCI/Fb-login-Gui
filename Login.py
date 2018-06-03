@@ -15,7 +15,7 @@ username.send_keys(usr)
 print("Username entered")
 sleep(1)
 
-password=driver.find_element_by_id('password')
+password=driver.find_element_by_id('pass')
 password.send_keys(pwd) 
 print("Password entered")
 sleep(1)
