@@ -5,8 +5,8 @@ from getpass import getpass
 usr=input("Enter Email Id:")
 pwd=getpass("Enter Password")
 
-driver=webdriver.Chrome('C:\Users\Utkarsh\AppData\Local\Programs\Python\Python36')
-driver.get("https://twitter.com/login?lang=en")
+driver=webdriver.Chrome("C:/Users/Utkarsh/AppData/Local/Programs/Python/Python36")
+driver.get("https://www.facebook.com/")
 print("Opened Twitter")
 sleep(1)
 
