@@ -6,15 +6,15 @@ root=Tk()
 root.title("Login APP")
 root.geometry("400x400")
 
-label1=Label(text="Enter details")
+label1=Label(text="Enter details",fg="Black",font=("Open Sans",10))
 label1.grid(column=0,row=0)
 
-button1=Label(text="Username")
+button1=Label(text="Username",bg="black",fg="white",font=("Open Sans",10))
 button1.grid(column=20,row=1)
 entry1=Entry()
 entry1.grid(column=21,row=1)
 
-button2=Label(text="Password")
+button2=Label(text="Password",bg="black",fg="white",font=("Open Sans",10))
 button2.grid(column=20,row=2)
 entry2=Entry()
 entry2.grid(column=21,row=2)
