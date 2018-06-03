@@ -7,7 +7,7 @@ pwd=getpass("Enter Password")
 
 driver=webdriver.Chrome("C:/Users/Utkarsh/AppData/Local/Programs/Python/Python36")
 driver.get("https://www.facebook.com/")
-print("Opened Twitter")
+print("Opened Facebook")
 sleep(1)
 
 username=driver.find_element_by_id('email')
