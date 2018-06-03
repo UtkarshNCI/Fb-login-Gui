@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "C:\\Users\\Utkarsh\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
+    "python.pythonPath": "C:\\Users\\Utkarsh\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.unittestEnabled": true
 }

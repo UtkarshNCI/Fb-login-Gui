@@ -1,13 +1,13 @@
 from selenium import webdriver 
 from time import sleep
 from getpass import getpass
-
+import os
 usr=input("Enter Email Id:")
 pwd=getpass("Enter Password")
 
-driver=webdriver.Chrome()
-driver.get("https://twitter.com/login?lang=en")
-print("Opened Twitter")
+driver=webdriver.Chrome("C:\Users\Utkarsh\Downloads\chromedriver_win32\chromedriver.exe")
+driver.get("https://www.facebook.com/")
+print("Opened Facebook")
 sleep(1)
 
 username=driver.find_element_by_id('email')
