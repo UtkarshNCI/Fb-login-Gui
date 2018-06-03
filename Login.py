@@ -5,7 +5,7 @@ from getpass import getpass
 usr=input("Enter Email Id:")
 pwd=getpass("Enter Password")
 
-driver=webdriver.Chrome()
+driver=webdriver.Chrome('C:\Users\Utkarsh\AppData\Local\Programs\Python\Python36')
 driver.get("https://twitter.com/login?lang=en")
 print("Opened Twitter")
 sleep(1)
