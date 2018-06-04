@@ -1,3 +1,6 @@
+#https://github.com/RandomQWE 
+#Gui Login app for facebook
+#created by Utkarsh
 import tkinter as tkk
 from selenium import webdriver 
 from time import sleep
