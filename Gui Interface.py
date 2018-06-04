@@ -1,3 +1,6 @@
+#https://github.com/RandomQWE 
+#Gui Login app for facebook
+#created by Utkarsh
 import tkinter as tkk
 from selenium import webdriver 
 from time import sleep
@@ -63,4 +66,5 @@ entry2.grid(column=21,row=2)
 button3=tkk.Button(text="Login",command=clicked)
 button3.grid(column=20,row=3)
 root.bind("<Return>", clicked)
+root.bind("<Button-1>",clicked)
 root.mainloop()
