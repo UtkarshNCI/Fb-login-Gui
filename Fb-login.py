@@ -18,7 +18,9 @@ def clicked(*args):
 
 
 def cli(usr,pwd):
-    driver=webdriver.Chrome("C:/Users/Utkarsh/Downloads/chromedriver_win32/chromedriver.exe")
+    cwd=os.getcwd()
+    ok=os.path.join(cwd,'chromedriver.exe')
+    driver=webdriver.Chrome(ok)
     driver.get("https://www.facebook.com/")
     print("Opened Facebook")
     sleep(1)
