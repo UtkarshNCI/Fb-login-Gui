@@ -1,3 +1,4 @@
+
 # Python
 # Fb login using tkinter and selenium
  Simple GUI App
@@ -5,6 +6,7 @@
              
              https://github.com/RandomQWE
              
-Need to manually include path of chromedriver.exe in Fb-login.py.
-Im working on this issue(to automatically complete path) 
-#Edit:Script will now automatically include chromedriver.exe
+<s>Need to manually include path of chromedriver.exe in Fb-login.py.
+Im working on this issue(to automatically complete path) </s>
+
+# Edit:Script will now automatically include chromedriver.exe
