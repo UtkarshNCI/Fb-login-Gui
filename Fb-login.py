@@ -46,7 +46,7 @@ def cli(usr,pwd):
 
 root=tkk.Tk()
 root.title("Login APP")
-root.geometry("400x400")
+root.geometry("300x200")
 
 label1=tkk.Label(text="Enter details",fg="Black",font=("Open Sans",10))
 label1.grid(column=0,row=0)
@@ -66,5 +66,5 @@ entry2.grid(column=21,row=2)
 button3=tkk.Button(text="Login",command=clicked)
 button3.grid(column=20,row=3)
 root.bind("<Return>", clicked)
-root.bind("<Button-1>",clicked)
+root.bind("button3","<Button-1>",clicked)
 root.mainloop()
